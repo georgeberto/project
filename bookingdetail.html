@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Details</title>
+    <link rel="stylesheet" href="css/stylebookingdetail.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <h2>INI LOGO</h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-symbols-sharp">close</span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="#" class="active">
+                    <span class="material-symbols-sharp">grid_view</span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp">forum</span>
+                    <h3>Live chat</h3>
+                    <span class="message-count">13</span>
+                </a>
+                <a href="adminarticle.html">
+                    <span class="material-symbols-sharp">newspaper</span>
+                    <h3>Article</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp">account_circle</span>
+                    <h3>Account</h3>
+                </a>
+                <a href="login.html">
+                    <span class="material-symbols-sharp">logout</span>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+        </aside>
+        
+        <!-- -----SIDE----- -->
+
+        <main>
+            <h1>Dashboard</h1>
+            <div class="date">
+                <input type="date">
+            </div>
+
+            <div class="recent">
+                <h2>Recent Booking</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nama</th>
+                            <th>Nomor</th>
+                            <th>Gender</th>
+                            <th>Tanggal</th>
+                            <th>Jam</th>
+                            <th>Umur</th>
+                            <th>Keluhan</th>
+                            <th>Pengobatan</th>
+                            <th>Tindakan</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Irelia</td>
+                            <td>+6281387005496</td>
+                            <td>Perempuan</td>
+                            <td>12-03-2023</td>
+                            <td><select type="text" class="field">
+                                <option value="au">10.00-12.00</option>
+                                <option value="ca">13.00-15.00</option>
+                                <option value="usa">16.30-18.00</option>
+                                </select></td>
+                            <td>25</td>
+                            <td>Saya sakit apa yaa apa aja boleh kalimat ini cuma contoh. sakit apa yaa apa aja boleh kalimat ini cuma contoh. Saya sakit apa yaa apa aja boleh kalimat ini cuma contoh</td>
+                            <td><select type="text" class="field">
+                                <option value="au">Spesialis jantung</option>
+                                <option value="au">Spesialis paru-paru</option>
+                                <option value="au">Spesialis hati</option>
+                                <option value="au">Spesialis ginjal</option>
+                                <option value="ca">Spesialis anak</option>
+                                <option value="usa">Spesialis saraf</option>
+                                <option value="usa">Spesialis kulit dan kelamin</option>
+                                <option value="usa">Spesialis THT</option>
+                                <option value="usa">Spesialis mata</option>
+                                </select></td>
+                            <td><textarea class="field area" placeholder="Tindakan"></textarea></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="admin.html"><button class="buton">Update Data</button></a>
+            </div>
+
+        </main>
+        
+        <div class="right">
+            <div class="top">
+                <button id="menu-btn">
+                    <span class="material-symbols-sharp">menu</span>
+                </button>
+                <div class="theme-toggler">
+                    <span class="material-symbols-sharp active">light_mode</span>
+                    <span class="material-symbols-sharp">dark_mode</span>
+                </div>
+                <div class="profile">
+                    <div class="info">
+                        <p>Hey, <b>Admin</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="hospital.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        
+        
+        </div>
+
+    </div>
+    <script src="script/admin.js"></script>
+</body>
+</html>

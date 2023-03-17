@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Live Chat</title>
+    <link rel="stylesheet" href="css/stylelivechat.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <h2>INI LOGO</h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-symbols-sharp">close</span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="admin.html" class="active">
+                    <span class="material-symbols-sharp">grid_view</span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="adminlivechat.html">
+                    <span class="material-symbols-sharp">forum</span>
+                    <h3>Live chat</h3>
+                    <span class="message-count">13</span>
+                </a>
+                <a href="adminarticle.html">
+                    <span class="material-symbols-sharp">newspaper</span>
+                    <h3>Article</h3>
+                </a>
+                <a href="adminaccount.html">
+                    <span class="material-symbols-sharp">account_circle</span>
+                    <h3>Account</h3>
+                </a>
+                <a href="login.html">
+                    <span class="material-symbols-sharp">logout</span>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+        </aside>
+        
+        <!-- -----SIDE----- -->
+
+        <main>
+            <h1>Dashboard</h1>
+            <div class="date">
+                <input type="date">
+            </div>
+
+            <div class="bodyy">
+                <div class="containerr">
+                    <div class="leftside">
+                        <!-- ---CHAT HEADER--- -->
+                        <div class="header">
+                            <div class="userimg">
+                                <img src="hospitalvector.jpg" class="cover" alt="">
+                            </div>
+                            <ul class="nav-icons">
+                                <li><ion-icon name="chatbox-ellipses-outline"></ion-icon></li>
+                                <li><ion-icon name="ellipsis-vertical-outline"></ion-icon></li>
+                            </ul>
+                        </div>
+                        <!-- ---CHAT HEADER--- -->
+                        <!-- ---SEARCH--- -->
+                        <div class="search-chat">
+                            <div>
+                                <input type="text" placeholder="Search">
+                                <ion-icon name="search-outline"></ion-icon>
+                            </div>
+                        </div>
+                        <!-- ---SEARCH--- -->
+                        <!-- ---CHATLIST--- -->
+                        <div class="chatlist">
+                            <div class="block active">
+                                <div class="imgbx">
+                                <img src="images/profileicon.png" class="cover" alt="">
+                                </div>
+                                <div class="details">
+                                    <div class="listhead">
+                                        <h4>Irelia</h4>
+                                        <p class="time">11.30</p>
+                                    </div>
+                                    <div class="message-p">
+                                        <p>Halo saya mau nanya doongssHalo saya mau nanya doongss</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="block unread">
+                                <div class="imgbx">
+                                <img src="images/profileicon.png" class="cover" alt="">
+                                </div>
+                                <div class="details">
+                                    <div class="listhead">
+                                        <h4>Burhan</h4>
+                                        <p class="time">10.51</p>
+                                    </div>
+                                    <div class="message-p">
+                                        <p>oi</p>
+                                        <b>1</b>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="block unread">
+                                <div class="imgbx">
+                                <img src="images/profileicon.png" class="cover" alt="">
+                                </div>
+                                <div class="details">
+                                    <div class="listhead">
+                                        <h4>@guss Ker3n</h4>
+                                        <p class="time">09.15</p>
+                                    </div>
+                                    <div class="message-p">
+                                        <p>Halo bro ini rumah sakit apa bukan sihh?</p>
+                                        <b>3</b>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="block unread">
+                                <div class="imgbx">
+                                <img src="images/profileicon.png" class="cover" alt="">
+                                </div>
+                                <div class="details">
+                                    <div class="listhead">
+                                        <h4>Pak Bambang</h4>
+                                        <p class="time">09.07</p>
+                                    </div>
+                                    <div class="message-p">
+                                        <p>Nulis apa aja bole la yaaa kan sabeb disini mah</p>
+                                        <b>2</b>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="block unread">
+                                <div class="imgbx">
+                                <img src="images/profileicon.png" class="cover" alt="">
+                                </div>
+                                <div class="details">
+                                    <div class="listhead">
+                                        <h4>Katarina</h4>
+                                        <p class="time">09.01</p>
+                                    </div>
+                                    <div class="message-p">
+                                        <p>p</p>
+                                        <b>14</b>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="block">
+                                <div class="imgbx">
+                                <img src="images/profileicon.png" class="cover" alt="">
+                                </div>
+                                <div class="details">
+                                    <div class="listhead">
+                                        <h4>Bayuu</h4>
+                                        <p class="time">yesterday</p>
+                                    </div>
+                                    <div class="message-p">
+                                        <p>Halo kak hehehhe</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="block">
+                                <div class="imgbx">
+                                <img src="images/profileicon.png" class="cover" alt="">
+                                </div>
+                                <div class="details">
+                                    <div class="listhead">
+                                        <h4>Asd123</h4>
+                                        <p class="time">yesterday</p>
+                                    </div>
+                                    <div class="message-p">
+                                        <p>p</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="block">
+                                <div class="imgbx">
+                                <img src="images/profileicon.png" class="cover" alt="">
+                                </div>
+                                <div class="details">
+                                    <div class="listhead">
+                                        <h4>Sitiee</h4>
+                                        <p class="time">10/03/2023</p>
+                                    </div>
+                                    <div class="message-p">
+                                        <p>Ah males ah saya gajadi berobat udah sembuh saya kayanya</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="block">
+                                <div class="imgbx">
+                                <img src="images/profileicon.png" class="cover" alt="">
+                                </div>
+                                <div class="details">
+                                    <div class="listhead">
+                                        <h4>LuLu Lucu</h4>
+                                        <p class="time">09/03/2023</p>
+                                    </div>
+                                    <div class="message-p">
+                                        <p>Oh gitu yak masa iya si kaya gitu</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="block">
+                                <div class="imgbx">
+                                <img src="images/profileicon.png" class="cover" alt="">
+                                </div>
+                                <div class="details">
+                                    <div class="listhead">
+                                        <h4>Pak memet</h4>
+                                        <p class="time">09/03/2023</p>
+                                    </div>
+                                    <div class="message-p">
+                                        <p>Okeedeeee makasih banyak y </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="block">
+                                <div class="imgbx">
+                                <img src="images/profileicon.png" class="cover" alt="">
+                                </div>
+                                <div class="details">
+                                    <div class="listhead">
+                                        <h4>Soegie</h4>
+                                        <p class="time">09/03/2023</p>
+                                    </div>
+                                    <div class="message-p">
+                                        <p>Mas saya lagi galau berobat spesialis apa ya</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="block">
+                                <div class="imgbx">
+                                <img src="images/profileicon.png" class="cover" alt="">
+                                </div>
+                                <div class="details">
+                                    <div class="listhead">
+                                        <h4>Anjelo</h4>
+                                        <p class="time">08/3/2023</p>
+                                    </div>
+                                    <div class="message-p">
+                                        <p>Oke baik mbak</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ---CHATLIST--- -->
+                    </div>
+                    <div class="rightside">
+                        <div class="header">
+                            <div class="imgtext">
+                                <div class="userimg">
+                                    <img src="hospitalvector.jpg" class="cover" alt="">
+                                </div>
+                                <h4>Admin <br><span>online</span></h4>
+                            </div>
+                            <ul class="nav-icons">
+                                <ion-icon style="font-size: 1.5em;" name="search-outline"></ion-icon>
+                                <li><ion-icon name="ellipsis-vertical-outline"></ion-icon></li>
+                            </ul>
+                        </div>
+
+                        <!-- ---MAIN CHATBOX--- -->
+                        <div class="chatbox">
+                            <div class="message friend-message">
+                                <p>hi manis<br><span>15:30</span></p>
+                            </div>
+                            <div class="message my-message">
+                                <p>hi jugaaa<br><span>15:31</span></p>
+                            </div>
+                            <div class="message friend-message">
+                                <p>ini adminya yaaa? bole kenlaan ga<br><span>15:30</span></p>
+                            </div>
+                            <div class="message my-message">
+                                <p>bole kakaaa masa gaboleee<br><span>15:31</span></p>
+                            </div>
+                            <div class="message friend-message">
+                                <p>bagi nomernya doooong<br><span>15:30</span></p>
+                            </div>
+                            <div class="message my-message">
+                                <p>kan ini udh ngechat gimana si kocak banget<br><span>15:31</span></p>
+                            </div>
+                            <div class="message friend-message">
+                                <p>ohiya bener juga yaaa hahaha jangan galak-galak nanti ga laku websitenya<br><span>15:30</span></p>
+                            </div>
+                            <div class="message my-message">
+                                <p>lorem ipsum aja deh<br><span>15:31</span></p>
+                            </div>
+                            <div class="message friend-message">
+                                <p>nulis apalagi yaaak belom kepikiran<br><span>15:30</span></p>
+                            </div>
+                            <div class="message my-message">
+                                <p>iyayak belom kepikiran juga ntaran dah dibenerin lagii<br><span>15:31</span></p>
+                            </div>
+                            <div class="message friend-message">
+                                <p>mari menulis sampe bisa di scroll sesuai height<br><span>15:30</span></p>
+                            </div>
+                            <div class="message my-message">
+                                <p>banyak banget yaaa<br><span>15:31</span></p>
+                            </div>
+                            <div class="message friend-message">
+                                <p>iya yaaaaa apa heightnya  kegedean ya iniiii kaga sampe-sampe diujung<br><span>15:30</span></p>
+                            </div>
+                            <div class="message my-message">
+                                <p>iyaa lama banget sih iniii<br><span>15:31</span></p>
+                            </div>
+                            <div class="message friend-message">
+                                <p>dikit lagi ni kayanya<br><span>15:30</span></p>
+                            </div>
+                            <div class="message my-message">
+                                <p>Hi iya semoga aja yaaa selesai cepettt bosen menn<br><span>15:31</span></p>
+                            </div>
+                        </div>
+                        <!-- ---MAIN CHATBOX--- -->
+
+                        <!-- ---CHAT INPUT--- -->
+                    <div class="chatbox-input">
+                        <input type="text" placeholder="Type a message">
+                    </div>
+                    <!-- ---CHAT INPUT--- -->
+                    </div>
+                    
+                </div>
+            </div>
+
+        </main>
+
+        <!-- ----------- -->
+
+        <div class="right">
+            <div class="top">
+                <button id="menu-btn">
+                    <span class="material-symbols-sharp">menu</span>
+                </button>
+                <div class="theme-toggler">
+                    <span class="material-symbols-sharp active">light_mode</span>
+                    <span class="material-symbols-sharp">dark_mode</span>
+                </div>
+                <div class="profile">
+                    <div class="info">
+                        <p>Hey, <b>Admin</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="hospital.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script/admin.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

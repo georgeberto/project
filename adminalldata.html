@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin page</title>
+    <link rel="stylesheet" href="css/styleadmin.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <h2>INI LOGO</h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-symbols-sharp">close</span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="admin.html" class="active">
+                    <span class="material-symbols-sharp">grid_view</span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="adminlivechat.html">
+                    <span class="material-symbols-sharp">forum</span>
+                    <h3>Live chat</h3>
+                    <span class="message-count">13</span>
+                </a>
+                <a href="adminarticle.html">
+                    <span class="material-symbols-sharp">newspaper</span>
+                    <h3>Article</h3>
+                </a>
+                <a href="adminaccount.html">
+                    <span class="material-symbols-sharp">account_circle</span>
+                    <h3>Account</h3>
+                </a>
+                <a href="login.html">
+                    <span class="material-symbols-sharp">logout</span>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+        </aside>
+        
+        <!-- -----SIDE----- -->
+
+        <main>
+            <h1>Dashboard</h1>
+            <div class="date">
+                <input type="date">
+            </div>
+            
+            <div class="recent">
+                <h2>Recent Booking</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nama</th>
+                            <th>Nomor</th>
+                            <th>Gender</th>
+                            <th>Tanggal</th>
+                            <th>Jam</th>
+                            <th>Status</th>
+                            <th></th>
+                            <!-- <th>Keluhan</th> -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Irelia</td>
+                            <td>+6281387005496</td>
+                            <td>Perempuan</td>
+                            <td>12-03-2023</td>
+                            <td>10.00-12.00</td>
+                            <td class="red">Not Updated</td>
+                            <td class="primary"><a class="primary" href="bookingdetail.html">Details</a></td>
+                            <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Bagus</td>
+                            <td>+6681185005499</td>
+                            <td>Laki-Laki</td>
+                            <td>10-03-2023</td>
+                            <td>13.00-15.00</td>
+                            <td class="red">Not Updated</td>
+                            <td class="primary"><a class="primary" href="bookingdetail.html">Details</a></td>
+                            <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Zico</td>
+                            <td>+6281805905243</td>
+                            <td>Laki-Laki</td>
+                            <td>10-03-2023</td>
+                            <td>10.00-12.00</td>
+                            <td class="red">Not Updated</td>
+                            <td class="primary"><a class="primary" href="bookingdetail.html">Details</a></td>
+                            <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Katarina</td>
+                            <td>+6281787385321</td>
+                            <td>Perempuan</td>
+                            <td>08-03-2023</td>
+                            <td>16.30-18.00</td>
+                            <td class="red">Not Updated</td>
+                            <td class="primary"><a class="primary" href="bookingdetail.html">Details</a></td>
+                            <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Bagas</td>
+                            <td>+6281251795295</td>
+                            <td>Laki-Laki</td>
+                            <td>01-03-2023</td>
+                            <td>10.00-12.00</td>
+                            <td class="green">Updated</td>
+                            <td class="primary"><a class="primary" href="bookingdetail.html">Details</a></td>
+                            <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Burhan</td>
+                            <td>+6281467525453</td>
+                            <td>Laki-Laki</td>
+                            <td>22-02-2023</td>
+                            <td>10.00-12.00</td>
+                            <td class="green">Updated</td>
+                            <td class="primary"><a class="primary" href="bookingdetail.html">Details</a></td>
+                            <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Alicia</td>
+                            <td>+6281387005496</td>
+                            <td>Perempuan</td>
+                            <td>27-01-2023</td>
+                            <td>16.30-18.00</td>
+                            <td class="green">Updated</td>
+                            <td class="primary"><a class="primary" href="bookingdetail.html">Details</a></td>
+                            <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Irelia</td>
+                            <td>+6281387005496</td>
+                            <td>Perempuan</td>
+                            <td>12-03-2023</td>
+                            <td>10.00-12.00</td>
+                            <td class="green">Updated</td>
+                            <td class="primary"><a class="primary" href="bookingdetail.html">Details</a></td>
+                            <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Bagus</td>
+                            <td>+6681185005499</td>
+                            <td>Laki-Laki</td>
+                            <td>10-03-2023</td>
+                            <td>13.00-15.00</td>
+                            <td class="green">Updated</td>
+                            <td class="primary"><a class="primary" href="bookingdetail.html">Details</a></td>
+                            <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Zico</td>
+                            <td>+6281805905243</td>
+                            <td>Laki-Laki</td>
+                            <td>10-03-2023</td>
+                            <td>10.00-12.00</td>
+                            <td class="green">Updated</td>
+                            <td class="primary"><a class="primary" href="bookingdetail.html">Details</a></td>
+                            <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Katarina</td>
+                            <td>+6281787385321</td>
+                            <td>Perempuan</td>
+                            <td>08-03-2023</td>
+                            <td>16.30-18.00</td>
+                            <td class="green">Updated</td>
+                            <td class="primary"><a class="primary" href="bookingdetail.html">Details</a></td>
+                            <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Bagas</td>
+                            <td>+6281251795295</td>
+                            <td>Laki-Laki</td>
+                            <td>01-03-2023</td>
+                            <td>10.00-12.00</td>
+                            <td class="green">Updated</td>
+                            <td class="primary"><a class="primary" href="bookingdetail.html">Details</a></td>
+                            <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Burhan</td>
+                            <td>+6281467525453</td>
+                            <td>Laki-Laki</td>
+                            <td>22-02-2023</td>
+                            <td>10.00-12.00</td>
+                            <td class="green">Updated</td>
+                            <td class="primary"><a class="primary" href="bookingdetail.html">Details</a></td>
+                            <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Alicia</td>
+                            <td>+6281387005496</td>
+                            <td>Perempuan</td>
+                            <td>27-01-2023</td>
+                            <td>16.30-18.00</td>
+                            <td class="green">Updated</td>
+                            <td class="primary"><a class="primary" href="bookingdetail.html">Details</a></td>
+                            <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Irelia</td>
+                            <td>+6281387005496</td>
+                            <td>Perempuan</td>
+                            <td>12-03-2023</td>
+                            <td>10.00-12.00</td>
+                            <td class="green">Updated</td>
+                            <td class="primary"><a class="primary" href="bookingdetail.html">Details</a></td>
+                            <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Bagus</td>
+                            <td>+6681185005499</td>
+                            <td>Laki-Laki</td>
+                            <td>10-03-2023</td>
+                            <td>13.00-15.00</td>
+                            <td class="green">Updated</td>
+                            <td class="primary"><a class="primary" href="bookingdetail.html">Details</a></td>
+                            <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Zico</td>
+                            <td>+6281805905243</td>
+                            <td>Laki-Laki</td>
+                            <td>10-03-2023</td>
+                            <td>10.00-12.00</td>
+                            <td class="green">Updated</td>
+                            <td class="primary"><a class="primary" href="bookingdetail.html">Details</a></td>
+                            <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Katarina</td>
+                            <td>+6281787385321</td>
+                            <td>Perempuan</td>
+                            <td>08-03-2023</td>
+                            <td>16.30-18.00</td>
+                            <td class="green">Updated</td>
+                            <td class="primary"><a class="primary" href="bookingdetail.html">Details</a></td>
+                            <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Bagas</td>
+                            <td>+6281251795295</td>
+                            <td>Laki-Laki</td>
+                            <td>01-03-2023</td>
+                            <td>10.00-12.00</td>
+                            <td class="green">Updated</td>
+                            <td class="primary"><a class="primary" href="bookingdetail.html">Details</a></td>
+                            <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Burhan</td>
+                            <td>+6281467525453</td>
+                            <td>Laki-Laki</td>
+                            <td>22-02-2023</td>
+                            <td>10.00-12.00</td>
+                            <td class="green">Updated</td>
+                            <td class="primary"><a class="primary" href="bookingdetail.html">Details</a></td>
+                            <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Alicia</td>
+                            <td>+6281387005496</td>
+                            <td>Perempuan</td>
+                            <td>27-01-2023</td>
+                            <td>16.30-18.00</td>
+                            <td class="green">Updated</td>
+                            <td class="primary"><a class="primary" href="bookingdetail.html">Details</a></td>
+                            <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Irelia</td>
+                            <td>+6281387005496</td>
+                            <td>Perempuan</td>
+                            <td>12-03-2023</td>
+                            <td>10.00-12.00</td>
+                            <td class="green">Updated</td>
+                            <td class="primary"><a class="primary" href="bookingdetail.html">Details</a></td>
+                            <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Bagus</td>
+                            <td>+6681185005499</td>
+                            <td>Laki-Laki</td>
+                            <td>10-03-2023</td>
+                            <td>13.00-15.00</td>
+                            <td class="green">Updated</td>
+                            <td class="primary"><a class="primary" href="bookingdetail.html">Details</a></td>
+                            <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Zico</td>
+                            <td>+6281805905243</td>
+                            <td>Laki-Laki</td>
+                            <td>10-03-2023</td>
+                            <td>10.00-12.00</td>
+                            <td class="green">Updated</td>
+                            <td class="primary"><a class="primary" href="bookingdetail.html">Details</a></td>
+                            <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Katarina</td>
+                            <td>+6281787385321</td>
+                            <td>Perempuan</td>
+                            <td>08-03-2023</td>
+                            <td>16.30-18.00</td>
+                            <td class="green">Updated</td>
+                            <td class="primary"><a class="primary" href="bookingdetail.html">Details</a></td>
+                            <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Bagas</td>
+                            <td>+6281251795295</td>
+                            <td>Laki-Laki</td>
+                            <td>01-03-2023</td>
+                            <td>10.00-12.00</td>
+                            <td class="green">Updated</td>
+                            <td class="primary"><a class="primary" href="bookingdetail.html">Details</a></td>
+                            <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Burhan</td>
+                            <td>+6281467525453</td>
+                            <td>Laki-Laki</td>
+                            <td>22-02-2023</td>
+                            <td>10.00-12.00</td>
+                            <td class="green">Updated</td>
+                            <td class="primary"><a class="primary" href="bookingdetail.html">Details</a></td>
+                            <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Alicia</td>
+                            <td>+6281387005496</td>
+                            <td>Perempuan</td>
+                            <td>27-01-2023</td>
+                            <td>16.30-18.00</td>
+                            <td class="green">Updated</td>
+                            <td class="primary"><a class="primary" href="bookingdetail.html">Details</a></td>
+                            <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Irelia</td>
+                            <td>+6281387005496</td>
+                            <td>Perempuan</td>
+                            <td>12-03-2023</td>
+                            <td>10.00-12.00</td>
+                            <td class="green">Updated</td>
+                            <td class="primary"><a class="primary" href="bookingdetail.html">Details</a></td>
+                            <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Bagus</td>
+                            <td>+6681185005499</td>
+                            <td>Laki-Laki</td>
+                            <td>10-03-2023</td>
+                            <td>13.00-15.00</td>
+                            <td class="green">Updated</td>
+                            <td class="primary"><a class="primary" href="bookingdetail.html">Details</a></td>
+                            <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Zico</td>
+                            <td>+6281805905243</td>
+                            <td>Laki-Laki</td>
+                            <td>10-03-2023</td>
+                            <td>10.00-12.00</td>
+                            <td class="green">Updated</td>
+                            <td class="primary"><a class="primary" href="bookingdetail.html">Details</a></td>
+                            <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Katarina</td>
+                            <td>+6281787385321</td>
+                            <td>Perempuan</td>
+                            <td>08-03-2023</td>
+                            <td>16.30-18.00</td>
+                            <td class="green">Updated</td>
+                            <td class="primary"><a class="primary" href="bookingdetail.html">Details</a></td>
+                            <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Bagas</td>
+                            <td>+6281251795295</td>
+                            <td>Laki-Laki</td>
+                            <td>01-03-2023</td>
+                            <td>10.00-12.00</td>
+                            <td class="green">Updated</td>
+                            <td class="primary"><a class="primary" href="bookingdetail.html">Details</a></td>
+                            <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Burhan</td>
+                            <td>+6281467525453</td>
+                            <td>Laki-Laki</td>
+                            <td>22-02-2023</td>
+                            <td>10.00-12.00</td>
+                            <td class="green">Updated</td>
+                            <td class="primary"><a class="primary" href="bookingdetail.html">Details</a></td>
+                            <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Alicia</td>
+                            <td>+6281387005496</td>
+                            <td>Perempuan</td>
+                            <td>27-01-2023</td>
+                            <td>16.30-18.00</td>
+                            <td class="green">Updated</td>
+                            <td class="primary"><a class="primary" href="bookingdetail.html">Details</a></td>
+                            <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- <a href="#">Show All</a> -->
+            </div>
+        </main>
+
+        <div class="right">
+            <div class="top">
+                <button id="menu-btn">
+                    <span class="material-symbols-sharp">menu</span>
+                </button>
+                <div class="theme-toggler">
+                    <span class="material-symbols-sharp active">light_mode</span>
+                    <span class="material-symbols-sharp">dark_mode</span>
+                </div>
+                <div class="profile">
+                    <div class="info">
+                        <p>Hey, <b>Admin</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="hospital.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        
+        
+        </div>
+    </div>
+    
+
+    <script src="script/admin.js"></script>
+    <script src="https://kit.fontawesome.com/6438daa9eb.js" crossorigin="anonymous"></script>
+</body>
+</html>

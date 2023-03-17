@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>popup</title>
+    <link rel="stylesheet" href="stylebookingpopup.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/6438daa9eb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <nav>
+        <a href="#" class="logo">Logo</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="booking.html">Booking</a></li>
+            <li><a href="account.html">Account</a></li>
+        </ul>
+    </nav>
+    <section class="main"></section>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var nav = document.querySelector("nav");
+            nav.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+    
+    <div class="background">
+    <img class="gambar" src="images/medicine.png" alt="">
+    </div>
+    
+    <div class="title">
+    <h1>Booking</h1>
+    </div>
+    
+    <div class="container">
+        <div class="contact-box">
+            <div class="left">
+                <h1>1</h1>
+            </div>
+            <div class="right">
+                <h2>Booking Card</h2>
+                <h3><span>Nama :</span> Siapa Hayoo</h3>
+                <h3><span>Nomor :</span> +6281387005496</h3>
+                <h3><span>Gender :</span> Perempuan</h3>
+                <!-- <h3><span>Pengobatan:</span> Spesialis mata</h3> -->
+                <h3><span>Tanggal :</span> 12-03-2023</h3>
+                <h3><span>Jam :</span> 10.00-12.00</h3>
+                <h3 class="snippet"><span>Catatan/keluhan :</span> Saya mengalami banyak sekali masalah kesehatan
+                    Saya mengalamai banyak sekali masalah kesehatan Saya mengalamai banyak sekali masalah kesehatan
+                    Saya mengalamai banyak sekali masalah kesehatan Saya mengalamai banyak sekali masalah kesehatan
+                </h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="back">
+        <a href="booking.html"><button class="buton">Back</button></a>
+    </div>
+
+    <!-- -----FOOTER----- -->
+<footer class="footer">
+    <div class="containerr">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Contact us</h4>
+                <ul>
+                    <li><a href="#">+62 81383059614</a></li>
+                    <li><a href="#">+62 81286060634</a></li>
+                    <li><a href="#">+(021) 8008668</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Our location</h4>
+                <ul>
+                    <li><a href="#">Jl. Yang benar no.1-5, RW.1, <br>Kec. Makasar, Kota Jakarta Timur, <br>DKI Jakarta 13650</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- -----FOOTER----- -->
+
+    <!-- -----LIVE CHAT----- -->
+<div class="chatbox-wrapper">
+    <div class="chatbox-toggle">
+        <i class='bx bx-message-dots'></i>
+    </div>
+    <div class="chatbox-message-wrapper">
+        <div class="chatbox-message-header">
+            <div class="chatbox-message-profile">
+                <img src="hospitalvector.jpg" alt="" class="chatbox-message-image">
+                <div>
+                    <h4 class="chatbox-message-name">Admin Admin</h4>
+                    <p class="chatbox-message-status">Online</p>
+                </div>
+            </div>
+            <div class="chatbox-message-dropdown">
+                <i class='bx bx-dots-vertical-rounded chatbox-message-dropdown-toggle' ></i>
+                <ul class="chatbox-message-dropdown-menu">
+                    <li>
+                        <a href="#">Search</a>
+                    </li>
+                    <li>
+                        <a href="#">Report</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="chatbox-message-content">
+            <h4 class="chatbox-message-no-message">No message yet</h4>
+            <!-- <div class="chatbox-message-item sent">
+                <span class="chatbox-message-item-text">
+                    Halo, Nye Nye Nye Nye Nye Nye Nye. Nye Nye Nye
+                </span>
+                <span class="chatbox-message-item-time">09.30</span>
+            </div>
+            <div class="chatbox-message-item received">
+                <span class="chatbox-message-item-text">
+                    Halo, Nye Nye Nye Nye Nye Nye Nye. Nye Nye Nye
+                </span>
+                <span class="chatbox-message-item-time">09.30</span>
+            </div> -->
+        </div>
+        <div class="chatbox-message-bottom">
+            <form action="#" class="chatbox-message-form">
+                <textarea rows="1" placeholder="Type message..." class="chatbox-message-input"></textarea>
+                <button type="submit" class="chatbox-message-submit"><i class='bx bx-send' ></i></button>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- -----LIVE CHAT----- -->
+
+    <script src="script/script2.js"></script>
+</body>
+</html>
