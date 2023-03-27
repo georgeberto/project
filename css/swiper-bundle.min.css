@@ -424,7 +424,7 @@
     left: 50%;
     transform: translateX(-50%);
     white-space: nowrap;
-    transform: translateY(250px);
+    transform: translateY(270px);
   }
 
   @media (min-width: 768px) and (max-width: 820px){

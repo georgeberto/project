@@ -138,7 +138,7 @@ form.sign-up-form
     border-radius: 49px;
     text-decoration: none;
     cursor: pointer;
-    background-color:  rgb(74, 197, 197);
+    background-color:  rgb(85, 225, 169);
     color: azure;
     text-transform: uppercase;
     font-weight: 600;
@@ -158,7 +158,7 @@ form.sign-up-form
     border-radius: 49px;
     text-decoration: none;
     cursor: pointer;
-    background-color:  rgb(74, 197, 197);
+    background-color:  rgb(85, 225, 169);
     color: azure;
     text-transform: uppercase;
     font-weight: 600;
@@ -178,7 +178,7 @@ form.sign-up-form
     border-radius: 49px;
     text-decoration: none;
     cursor: pointer;
-    background-color:  rgb(74, 197, 197);
+    background-color:  rgb(85, 225, 169);
     color: azure;
     text-transform: uppercase;
     font-weight: 600;
@@ -188,17 +188,17 @@ form.sign-up-form
 
 .btn:hover
 {
-    background-color:  rgb(136, 224, 224);
+  background-color:  rgb(74, 203, 152);
 }
 
 .btnn:hover
 {
-    background-color:  rgb(136, 224, 224);
+  background-color:  rgb(74, 203, 152);
 }
 
 .btnnn:hover
 {
-    background-color:  rgb(136, 224, 224);
+  background-color:  rgb(74, 203, 152);
 }
 
 .social-text
@@ -245,7 +245,7 @@ form.sign-up-form
     left: 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-color: #518071;
+    background-color: #191970;;
 }
 
 .panel
