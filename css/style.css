@@ -11,7 +11,7 @@
 
 body
 {
-    background: #000;
+    background: #191970;
     min-height: 200vh;
 }
 
@@ -70,18 +70,17 @@ nav ul li a
     color: azure;
     letter-spacing: 2px;
     font-weight: 500px;
-    transition: 0.5s;
+    /* transition: 0.5s; */
 }
 
 nav ul li a:hover
 {
-    color: aqua;
+    color: #EEB5EB;
 }
 
 .background
 {
     margin-top: 100px;
-
     display: flex;
     justify-content: center;
 }
@@ -99,12 +98,13 @@ nav.sticky .logo,
 nav.sticky ul li a
 {
     color: #000;
+    font-weight: 600;
 }
 
 nav.sticky .logo:hover,
 nav.sticky ul li a:hover
 {
-    color: aqua
+    color: #5ab9ea;
 }
 
 /* -----TITLE----- */
@@ -112,7 +112,7 @@ nav.sticky ul li a:hover
 {
     margin-top: 20px;
     font-family: 'Lobster', cursive;
-    color: azure;
+    color: #def2f1;
     text-align: center;
     font-size: 80px;
 }
@@ -121,9 +121,12 @@ nav.sticky ul li a:hover
 {
     padding-top: 60px;
     margin: auto;
-    color: azure;
+    color: #def2f1;
     text-align: center;
+    line-height: 1.7em;
     width: 900px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 /* .artikel
@@ -135,7 +138,7 @@ nav.sticky ul li a:hover
 {
     font-size: 30px;
     font-family: "poppins", sans-serif;
-    color: azure;
+    color: #def2f1;
     padding-left: 30px;
     padding-bottom: 5px;
     font-weight: 600;
@@ -232,7 +235,7 @@ nav.sticky ul li a:hover
 /* -----RUNNINGTEXT----- */
 .runningtext
 {
-    color: #DDD;
+    color: #def2e1;
     position: relative;
     display: block;
     /* width: 750px; */
@@ -262,7 +265,7 @@ nav.sticky ul li a:hover
     padding-left: 100%;
     font-family: 'poppins', sans-serif;
     text-align: center;
-    -webkit-text-stroke: 1px whitesmoke;
+    -webkit-text-stroke: 1px #def2e1;
     white-space: nowrap;
     min-width: 100%;
     height: 100%;
@@ -303,7 +306,7 @@ nav.sticky ul li a:hover
 .footer
 {
     line-height: 1.5;
-    background-color: blanchedalmond;
+    background-color: #022140;
     padding: 70px 0;
 }
 
@@ -316,7 +319,7 @@ nav.sticky ul li a:hover
 .footer-col h4
 {
     font-size: 18px;
-    color: #888;
+    color: #def2f1;
     text-transform: capitalize;
     margin-bottom: 35px;
     font-weight: 500;
@@ -344,17 +347,16 @@ nav.sticky ul li a:hover
 {
     font-size: 16px;
     text-transform: capitalize;
-    color: grey;
+    color: #def2f1;
     text-decoration: none;
     font-weight: 300;
-    color: gray;
     display: block;
     transition: all .3s ease;
 }
 
 .footer-col ul li a:hover
 {
-    color: black;
+    color: #AFAFED;
     padding-left: 7px;
 }
 
@@ -368,14 +370,14 @@ nav.sticky ul li a:hover
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
-    color: rgb(159, 70, 70);
+    color: #def2f1;
     transition: all 0.5s ease;
 }
 
 .footer-col .social-links a:hover
 {
-    background-color: rgb(159, 70, 70);
-    color: white;
+    background-color: rgb(49, 44, 88);
+    color: #4f9894;
 }
 
 @media (max-width: 767px){
