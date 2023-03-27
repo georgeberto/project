@@ -11,7 +11,7 @@
 
 body
 {
-    background: #000;
+    background: #191970;
     min-height: 200vh;
 }
 
@@ -75,13 +75,12 @@ nav ul li a
 
 nav ul li a:hover
 {
-    color: aqua;
+    color: #EEB5EB;
 }
 
 .background
 {
     margin-top: 100px;
-
     display: flex;
     justify-content: center;
 }
@@ -104,7 +103,7 @@ nav.sticky ul li a
 nav.sticky .logo:hover,
 nav.sticky ul li a:hover
 {
-    color: aqua
+    color: #5ab9ea;
 }
 
 /* .title h1
@@ -120,7 +119,7 @@ nav.sticky ul li a:hover
 .banner{
     width: 100%;
     height: 150px;
-    background-color: rgb(245, 209, 242);
+    background-color: #c3c3ef;
     position: absolute;
 }
 
@@ -152,6 +151,7 @@ nav.sticky ul li a:hover
     background-color: white;
     border: solid 1px gray;
     border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .card img
@@ -186,7 +186,7 @@ nav.sticky ul li a:hover
 {
     margin-top: 1457px;
     line-height: 1.5;
-    background-color: blanchedalmond;
+    background-color: #022140;
     padding: 70px 0;
 }
 
@@ -199,7 +199,7 @@ nav.sticky ul li a:hover
 .footer-col h4
 {
     font-size: 18px;
-    color: #888;
+    color: #def2f1;
     text-transform: capitalize;
     margin-bottom: 35px;
     font-weight: 500;
@@ -227,17 +227,16 @@ nav.sticky ul li a:hover
 {
     font-size: 16px;
     text-transform: capitalize;
-    color: grey;
+    color: #def2f1;
     text-decoration: none;
     font-weight: 300;
-    color: gray;
     display: block;
     transition: all .3s ease;
 }
 
 .footer-col ul li a:hover
 {
-    color: black;
+    color: #afafed;
     padding-left: 7px;
 }
 
@@ -251,14 +250,14 @@ nav.sticky ul li a:hover
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
-    color: rgb(159, 70, 70);
+    color: #def2f1;
     transition: all 0.5s ease;
 }
 
 .footer-col .social-links a:hover
 {
-    background-color: rgb(159, 70, 70);
-    color: white;
+    background-color: rgb(49, 44, 88);
+    color: #4f9894;
 }
 
 @media (max-width: 767px){
