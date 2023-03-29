@@ -148,7 +148,7 @@ form.sign-up-form
 
 .btnn
 {
-    width: 150px;
+    width: 377px;
     height: 49px;
     border: none;
     outline: none;
@@ -173,12 +173,12 @@ form.sign-up-form
     border: none;
     outline: none;
     text-align: center;
-    padding-top: 13.5px;
+    padding-top: 10px;
     justify-content: center;
     border-radius: 49px;
     text-decoration: none;
     cursor: pointer;
-    background-color:  rgb(85, 225, 169);
+    border: 2px solid #fff;
     color: azure;
     text-transform: uppercase;
     font-weight: 600;
