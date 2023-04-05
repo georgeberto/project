@@ -162,6 +162,7 @@ aside
 aside .top
 {
     /* background: white; */
+    color: var(--color-dark);
     display: flex;
     align-items: center;
     justify-content: space-between;
