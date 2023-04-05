@@ -106,6 +106,26 @@ nav.sticky ul li a:hover
     color: #5ab9ea;
 }
 
+.toggle-button
+{
+    position: absolute;
+    top: .8rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar
+{
+    height: 3px;
+    width: 100%;
+    background-color: #000;
+    border-radius: 10px;
+}
+
 /* .title h1
 {
     margin-top: 20px;
@@ -145,8 +165,10 @@ nav.sticky ul li a:hover
     position: absolute;
     width: 1030px;
     padding: 20px;
-    margin-top: 120px;
-    margin-left: 60px;
+    /* margin-top: 120px;
+    margin-left: 60px; */
+    left: 60px;
+    top: 220px;
     /* margin-bottom: 500px; */
     background-color: white;
     border: solid 1px gray;
@@ -260,16 +282,106 @@ nav.sticky ul li a:hover
     color: #4f9894;
 }
 
-@media (max-width: 767px){
+@media (max-width: 1025px){
+    .card{
+        width: 900px;
+    }
+}
+
+@media (max-width: 768px){
+    .card{
+        width: 680px;
+    }
     .footer-col{
         width: 50%;
         margin-bottom: 30px;
+    }
+    nav{
+        display: block;
+    }
+    nav .logo{
+        padding-left: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .background .gambar{
+        height: 600px;
     }
 }
 
 @media (max-width: 574px){
     .footer-col{
         width: 100%;
+    }
+    .background .gambar{
+        height: 400px;
+    }
+    .background{
+        margin-top: 150px;
+    }
+}
+
+@media (max-width: 426px){
+    .footer{
+        margin-top: 200px;
+    }
+    body{
+        height: 1000px;
+    }
+    .textbanner h4{
+        padding-left: 26px;
+    }
+    .textbanner h2{
+        padding-left: 26px;
+    }
+    .card{
+        top: 120px;
+        position: relative;
+        width: 380px;
+        left: 25px;
+    }
+    .nav-links{
+        display: none;
+    }
+    .nav-links.active{
+        display: flex;
+        flex-direction: column;
+    }
+    nav ul li{
+        visibility: hidden;
+    }
+    nav.sticky .toggle-button{
+        display: flex;
+    }
+    nav.sticky ul{
+        flex-direction: column;
+    }
+    nav.sticky ul li{
+        visibility: visible;
+        border-top: 1px solid #a6a6a6;
+        padding: .35rem;
+    }
+    /* nav.sticky ul li:first-child {
+        border: none;
+    } */
+}
+
+@media (max-width: 376px){
+    .textbanner h2{
+        font-size: 27px;
+    }
+    .card{
+        width: 335px;
+    }
+}
+
+@media (max-width: 321px){
+    .textbanner h2{
+        font-size: 22px;
+    }
+    .card{
+        width: 285px;
     }
 }
 
@@ -312,7 +424,7 @@ html:focus-within {
 
 /* Set core body defaults */
 body {
-  min-height: 235vh;
+  min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   font-family: 'Poppins', sans-serif;

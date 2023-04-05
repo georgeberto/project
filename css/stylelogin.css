@@ -148,7 +148,7 @@ form.sign-up-form
 
 .btnn
 {
-    width: 377px;
+    width: 155px;
     height: 49px;
     border: none;
     outline: none;
@@ -298,6 +298,12 @@ form.sign-up-form
     height: 41px;
     font-weight: 600;
     font-size: 0.8rem;
+}
+
+.btn.transparent:hover
+{
+  color: #191970;
+  background-color: #ffffff;
 }
 
 .image

@@ -107,6 +107,26 @@ nav.sticky ul li a:hover
     color: #5ab9ea;
 }
 
+.toggle-button
+{
+    position: absolute;
+    top: .8rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar
+{
+    height: 3px;
+    width: 100%;
+    background-color: #000;
+    border-radius: 10px;
+}
+
 /* -----TITLE----- */
 .title h1
 {
@@ -387,7 +407,16 @@ nav.sticky ul li a:hover
     color: #4f9894;
 }
 
-@media (max-width: 767px){
+@media (max-width: 768px){
+    .field{
+        width: 490px;
+    }
+    .fieldd .abc{
+        width: 490px;
+    }
+    .right{
+        width: 100%;
+    }
     .footer-col{
         width: 50%;
         margin-bottom: 30px;
@@ -396,14 +425,83 @@ nav.sticky ul li a:hover
         display: block;
     }
     nav .logo{
-        margin-left: 30%;
+        padding-left: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-
+    .background .gambar{
+        width: 95%;
+        height: 600px;
+    }
 }
 
 @media (max-width: 574px){
     .footer-col{
         width: 100%;
+    }
+    .background .gambar{
+        height: 400px;
+    }
+    .background{
+        margin-top: 150px;
+    }
+}
+
+@media (max-width: 426px){
+    .field{
+        width: 300px;
+    }
+    .fieldd .abc{
+        width: 300px;
+    }
+    .right{
+        width: 400px;
+    }
+    .nav-links{
+        display: none;
+    }
+    .nav-links.active{
+        display: flex;
+        flex-direction: column;
+    }
+    nav ul li{
+        visibility: hidden;
+    }
+    nav.sticky .toggle-button{
+        display: flex;
+    }
+    nav.sticky ul{
+        flex-direction: column;
+    }
+    nav.sticky ul li{
+        visibility: visible;
+        border-top: 1px solid #a6a6a6;
+        padding: .35rem;
+    }
+}
+
+@media (max-width: 376px){
+    .field{
+        width: 268px;
+    }
+    .fieldd .abc{
+        width: 268px;
+    }
+    .right{
+        width: 350px;
+    }
+}
+
+@media (max-width: 321px){
+    .field{
+        width: 220px;
+    }
+    .fieldd .abc{
+        width: 220px;
+    }
+    .right{
+        width: 300px;
     }
 }
 

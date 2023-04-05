@@ -13,22 +13,35 @@
 <body>
     
 <!-- -----TEMPLATE----- -->
-<nav>
+<nav class="sticky">
     <a href="#" class="logo">Logo</a>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="booking.html">Booking</a></li>
-        <li><a href="account.html">Account</a></li>
-        <li><a href="login.html">Log Out</a></li>
-    </ul>
+    <a href="#0" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </a>
+    <div class="nav-links">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="booking.html">Booking</a></li>
+            <li><a href="account.html">Account</a></li>
+            <li><a href="login.html">Log Out</a></li>
+        </ul>
+    </div>
 </nav>
 <section class="main"></section>
 <script type="text/javascript">
-    window.addEventListener("scroll", function(){
+    window.addEventListener("scroll", function abc (){
         var nav = document.querySelector("nav");
         nav.classList.toggle("sticky", window.scrollY > 0);
     })
+
+    // const mediaQuery = window.matchMedia('(max-width: 426px)')
+    // if (mediaQuery.matches) {
+    //     nav.classList.toggle("sticky", window.scrollY = 0);
+    // }
+
 </script>
 
 <div class="background">
@@ -181,5 +194,7 @@
 <!-- -----LIVE CHAT----- -->
 
 <script src="script/script2.js"></script>
+<script src="script/navtoggle.js"></script>
+
 </body>
 </html>

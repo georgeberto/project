@@ -464,7 +464,7 @@ th
         width: 18rem;
         z-index: 3;
         box-shadow: 1rem 3rem 4rem var(--color-light);
-        height: 100vh;
+        height: 220vh;
         padding-right: var(--card-padding);
         display: none;
         animation: showMenu 400ms ease forwards;
@@ -562,5 +562,10 @@ th
     }
 }
 
+@media (max-width: 426px){
+    /* .aside{
+        height: 130vh;
+    } */
+}
 
 /* ----- MEDIA ----- */

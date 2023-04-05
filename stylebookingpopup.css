@@ -108,6 +108,26 @@ nav.sticky ul li a:hover
     color: #5ab9ea;
 }
 
+.toggle-button
+{
+    position: absolute;
+    top: .8rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar
+{
+    height: 3px;
+    width: 100%;
+    background-color: #000;
+    border-radius: 10px;
+}
+
 /* -----TITLE----- */
 .title h1
 {
@@ -161,6 +181,9 @@ nav.sticky ul li a:hover
     /* background: url(hospital.jpg) no-repeat center; */
     background-color: rgb(74, 197, 197);
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .right{
@@ -226,7 +249,7 @@ nav.sticky ul li a:hover
 .left h1
 {
     font-size: 200px;
-    padding-top: 270px;
+    /* padding-top: 270px; */
     display: grid;
     color: azure;
     line-height: 50px;
@@ -361,7 +384,33 @@ nav.sticky ul li a:hover
     color: #4f9894;
 }
 
-@media (max-width: 767px){
+@media (max-width: 768px){
+    .right{
+        width: 500px;
+        padding: 10px 20px;
+    }
+    .container{
+        padding: 80px 35px;
+    }
+    .buton{
+        width: 600px;
+    }
+    .contact-box{
+        width: 1000px;
+    }
+    .background .gambar{
+        height: 600px;
+    }
+    nav{
+        display: block;
+    }
+    nav .logo{
+        padding-left: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* text-align: center; */
+    }
     .footer-col{
         width: 50%;
         margin-bottom: 30px;
@@ -369,8 +418,82 @@ nav.sticky ul li a:hover
 }
 
 @media (max-width: 574px){
+    .background .gambar{
+        height: 400px;
+    }
+    .background{
+        margin-top: 150px;
+    }
     .footer-col{
         width: 100%;
+    }
+}
+
+@media (max-width: 426px){
+    .contact-box{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .left{
+        height: 130px;
+        width: 100%;
+        border-radius: 0px 0px 10px 10px;
+    }
+    .left h1{
+        font-size: 100px;
+    }
+    .right{
+        width: 300px;
+        padding: 10px 15px;
+    }
+    .container{
+        padding: 80px 25px;
+        margin: auto;
+    }
+    .container{
+        width: 400px;
+    }
+    .buton{
+        width: 350px;
+    }
+    .nav-links{
+        display: none;
+    }
+    .nav-links.active{
+        display: flex;
+        flex-direction: column;
+    }
+    nav ul li{
+        visibility: hidden;
+    }
+    nav.sticky .toggle-button{
+        display: flex;
+    }
+    nav.sticky ul{
+        flex-direction: column;
+    }
+    nav.sticky ul li{
+        visibility: visible;
+        border-top: 1px solid #a6a6a6;
+        padding: .35rem;
+    }
+}
+
+@media (max-width: 376px){
+    .buton{
+        width: 320px;
+    }
+    .container{
+        width: 370px;
+    }
+}
+
+@media (max-width: 321px){
+    .buton{
+        width: 290px;
+    }
+    .container{
+        width: 300px;
     }
 }
 

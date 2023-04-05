@@ -108,6 +108,26 @@ nav.sticky ul li a:hover
     color: #5ab9ea;
 }
 
+.toggle-button
+{
+    position: absolute;
+    top: .8rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar
+{
+    height: 3px;
+    width: 100%;
+    background-color: #000;
+    border-radius: 10px;
+}
+
 /* -----TITLE----- */
 .title h1
 {
@@ -360,16 +380,116 @@ nav.sticky ul li a:hover
     color: #4f9894;
 }
 
-@media (max-width: 767px){
+@media (max-width: 768px){
+    nav{
+        display: block;
+    }
+    nav .logo{
+        padding-left: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* text-align: center; */
+    }
     .footer-col{
         width: 50%;
         margin-bottom: 30px;
+    }
+    .title h1{
+        font-size: 60px;
+    }
+    .background .gambar{
+        width: 95%;
+        height: 400px;
     }
 }
 
 @media (max-width: 574px){
     .footer-col{
         width: 100%;
+    }
+    .background .gambar{
+        height: 400px;
+    }
+    .background{
+        margin-top: 150px;
+    }
+}
+
+@media (max-width: 426px){
+    .nav-links{
+        display: none;
+    }
+    .nav-links.active{
+        display: flex;
+        flex-direction: column;
+    }
+    nav ul li{
+        visibility: hidden;
+    }
+    nav.sticky .toggle-button{
+        display: flex;
+    }
+    nav.sticky ul{
+        flex-direction: column;
+    }
+    nav.sticky ul li{
+        visibility: visible;
+        border-top: 1px solid #a6a6a6;
+        padding: .35rem;
+    }
+    .container{
+        padding: 45px 30px;
+    }
+    .contact-box{
+        width: 100%;
+    }
+    .field{
+        width: 300px;
+    }
+    .left{
+        display: none;
+    }
+    .steps{
+        padding-left: 30px;
+    }
+    .history{
+        position: relative;
+        width: 100vw;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .history .historybtn{
+        position: absolute;
+        padding: 7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: -120px;
+        top: -110px;
+    }
+    .history a{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 170px;
+        height: 50px;
+        left: 0;
+    }
+}
+
+@media (max-width: 376px){
+    .field{
+        width: 270px;
+    }
+}
+
+@media (max-width: 321px){
+    .field{
+        width: 220px;
     }
 }
 

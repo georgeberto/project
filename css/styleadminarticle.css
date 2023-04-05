@@ -464,7 +464,7 @@ main h3
 {
     border: 2px dashed var(--color-dark);
     height: 245px;
-    width: 648px;
+    width: 100%;
     border-radius: 5px;
     display: flex;
     align-items: center;
@@ -524,4 +524,226 @@ main h3
     background-color: var(--color-primary);
     cursor: pointer;
     box-shadow: none;
+}
+
+
+
+
+@media (max-width: 2561px){
+    .title-input h3{
+        left: -475px;
+    }
+    .thumbnail h3{
+        left: -420px;
+    }
+    .file-ttl{
+        left: -495px;
+    }
+}
+
+@media (max-width: 1441px){
+    .title-input h3{
+        left: -220px;
+    }
+    .thumbnail h3{
+        left: -170px;
+    }
+    .file-ttl{
+        left: -245px;
+    }
+}
+
+@media (max-width: 1025px){
+    .title-input h3{
+        left: -105px;
+    }
+    .thumbnail h3{
+        left: -50px;
+    }
+    .file-ttl{
+        left: -125px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title-input h3{
+        left: -70px;
+    }
+    .thumbnail h3{
+        left: -17px;
+    }
+    .file-ttl{
+        left: -95px;
+    }
+    .container{
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+
+    aside{
+        position: fixed;
+        left: -100%;
+        background: var(--color-white);
+        width: 18rem;
+        z-index: 3;
+        box-shadow: 1rem 3rem 4rem var(--color-light);
+        height: 130vh;
+        padding-right: var(--card-padding);
+        display: none;
+        animation: showMenu 400ms ease forwards;
+    }
+
+    @keyframes showMenu{
+        to{
+            left: 0;
+        }
+    }
+
+    aside .logo{
+        margin-left: 1rem;
+    }
+
+    aside .logo h2{
+        display: inline;
+    }
+
+    aside .sidebar h3{
+        display: inline;
+    }
+
+    aside .sidebar a{
+        width: 100%;
+        height: 3.4rem;
+    }
+
+    aside .sidebar a:last-child{
+        position: absolute;
+        bottom: 5rem;
+    }
+
+    aside .close{
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    main{
+        margin-top: 8rem;
+        padding: 0 1rem;
+    }
+
+    main .recent{
+        position: relative;
+        margin: 3rem 0 0 0;
+        width: 100%;
+    }
+
+    main .recent table{
+        width: 100%;
+        margin: 0;
+    }
+
+    .right{
+        width: 94%;
+        margin: 0 auto 4rem;
+    }
+
+    .right .top{
+        position: fixed;
+        top: 0;
+        left: 0;
+        align-items: center;
+        padding: 0 0.8rem;
+        height: 4.6rem;
+        background: var(--color-white);
+        width: 100%;
+        margin: 0;
+        z-index: 2;
+        box-shadow: 0 1rem 1rem var(--color-light);
+    }
+
+    .right .top .theme-toggler{
+        width: 4.4rem;
+        position: absolute;
+        left: 66%;
+    }
+
+    .right .profile .info{
+        display: none;
+    }
+
+    .right .top button{
+        display: inline-block;
+        background: transparent;
+        cursor: pointer;
+        color: var(--color-dark);
+        position: absolute;
+        left: 1rem;
+    }
+
+    .right .top button span{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 426px){
+    /* .aside{
+        height: 130vh;
+    } */
+    .uploadcontainer{
+        max-width: 75vw;
+    }
+    .title-input h3{
+        left: -70px;
+        font-size: 17px;
+    }
+    .thumbnail h3{
+        left: -20px;
+        font-size: 17px;
+    }
+    .file-ttl{
+        left: -85px;
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 376px){
+    /* .aside{
+        height: 130vh;
+    } */
+    .uploadcontainer{
+        max-width: 75vw;
+    }
+    .title-input h3{
+        left: -50px;
+        font-size: 17px;
+    }
+    .thumbnail h3{
+        left: -5px;
+        font-size: 17px;
+    }
+    .file-ttl{
+        left: -70px;
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 321px){
+    /* .aside{
+        height: 130vh;
+    } */
+    .uploadcontainer{
+        max-width: 85vw;
+    }
+    .title-input h3{
+        left: -45px;
+        font-size: 17px;
+    }
+    .thumbnail h3{
+        left: -10px;
+        font-size: 15px;
+    }
+    .file-ttl{
+        left: -60px;
+        font-size: 17px;
+    }
 }
