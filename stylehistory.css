@@ -666,6 +666,114 @@ nav.sticky ul li a:hover
     color: #4f9894;
 }
 
+@media (max-width: 2561px) and (min-width: 2560px){
+    .footer{
+        margin-top: 758px;
+    }
+    .course{
+        top: 30%;
+    }
+    .coursee{
+        top: 46%;
+    }
+    .courseee{
+        top: 62%;
+    }
+}
+
+@media (max-width: 1441px) and (min-width: 1440px){
+    .footer{
+        margin-top: 758px;
+    }
+    .course{
+        top: 30%;
+    }
+    .coursee{
+        top: 46%;
+    }
+    .courseee{
+        top: 62%;
+    }
+}
+
+@media (max-width: 1400px) {
+    .course{
+        top: 45%;
+    }
+    .coursee{
+        top: 70%;
+    }
+    .courseee{
+        top: 95%;
+    }   
+}
+
+@media (max-width: 1200px) {
+    .course{
+        top: 55%;
+    }
+    .coursee{
+        top: 85%;
+    }
+    .courseee{
+        top: 115%;
+    }   
+}
+
+@media (max-width: 1025px) and (min-width: 1024px){
+    .footer{
+        margin-top: 758px;
+    }
+    /* .course{
+        top: 30%;
+    }
+    .coursee{
+        top: 46%;
+    }
+    .courseee{
+        top: 62%;
+    } */
+}
+
+@media (max-width: 992px){
+    .footer{
+        margin-top: 1360px;
+    }
+    .course{
+        width: 95%;
+    }
+    .coursee{
+        width: 95%;
+    }
+    .courseee{
+        width: 95%;
+    }
+    .containerrr{
+        margin-bottom: 1000px;
+    }
+}
+
+@media (max-width: 913px) and (min-width: 912px){
+    .footer{
+        margin-top: 1000px;
+    }
+    .course{
+        width: 95%;
+        top: 30%;
+    }
+    .coursee{
+        width: 95%;
+        top: 50%;
+    }
+    .courseee{
+        width: 95%;
+        top: 70%;
+    }
+    .containerrr{
+        margin-bottom: 1000px;
+    }
+}
+
 @media (max-width: 768px){
     .course{
         width: 95%;
@@ -699,11 +807,39 @@ nav.sticky ul li a:hover
 }
 
 @media (max-width: 574px){
+    .info{
+        height: 200px;
+    }
+    .infoo{
+        height: 200px;
+    }
+    .infooo{
+        height: 200px;
+    }
+    .textpreview h2{
+        width: 250px;
+    }
+    .course{
+        width: 95%;
+        top: 70%;
+    }
+    .coursee{
+        width: 95%;
+        top: 120%;
+    }
+    .courseee{
+        width: 95%;
+        top: 170%;
+    }
+    .containerrr{
+        margin-bottom: 1000px;
+    }
     .footer-col{
-        width: 100%;
+        width: 50%;
+        margin-bottom: 30px;
     }
     .background .gambar{
-        height: 400px;
+        height: 600px;
     }
     .background{
         margin-top: 150px;
@@ -711,14 +847,17 @@ nav.sticky ul li a:hover
 }
 
 @media (max-width: 426px){
+    .title h1{
+        margin-top: 0;
+    }
     .course{
         top: 60%;
     }
     .coursee{
-        top: 90%;
+        top: 95%;
     }
     .courseee{
-        top: 120%;
+        top: 130%;
     }
     .textpreview h2{
         width: 225px;
@@ -776,6 +915,18 @@ nav.sticky ul li a:hover
     }
 }
 
+@media (max-width: 361px) and (min-width: 360px) {
+    .course{
+        top: 70%;
+    }
+    .coursee{
+        top: 102%;
+    }
+    .courseee{
+        top: 134%;
+    }
+}
+
 @media (max-width: 321px){
     .preview h6{
         margin-left: -10px;
@@ -806,6 +957,36 @@ nav.sticky ul li a:hover
     }
     .previewww h2{
         padding-left: 3px;
+    }
+}
+
+@media (max-width: 280px){
+    .course{
+        top: 80%;
+    }
+    .coursee{
+        top: 120%;
+    }
+    .courseee{
+        top: 160%;
+    }
+    .textpreview h2{
+        width: 185px;
+    }
+    .info h2{
+        font-size: 14px;
+    }
+    .infoo h2{
+        font-size: 14px;
+    }
+    .infooo h2{
+        font-size: 14px;
+    }
+    .footer{
+        margin-top: 970px;
+    }
+    .background .gambar{
+        height: 400px;
     }
 }
 
