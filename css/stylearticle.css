@@ -284,13 +284,13 @@ nav.sticky ul li a:hover
 
 @media (max-width: 1025px){
     .card{
-        width: 900px;
+        width: 90vw;
     }
 }
 
 @media (max-width: 768px){
     .card{
-        width: 680px;
+        width: 85vw;
     }
     .footer-col{
         width: 50%;
@@ -310,6 +310,18 @@ nav.sticky ul li a:hover
     }
 }
 
+@media (max-width: 756px){
+    .footer{
+        margin-top: 1600px;
+    }
+}
+
+@media (max-width: 640px){
+    .footer{
+        margin-top: 1800px;
+    }
+}
+
 @media (max-width: 574px){
     .footer-col{
         width: 100%;
@@ -319,6 +331,9 @@ nav.sticky ul li a:hover
     }
     .background{
         margin-top: 150px;
+    }
+    .card{
+        top: 270px;
     }
 }
 
@@ -367,18 +382,30 @@ nav.sticky ul li a:hover
     } */
 }
 
+@media (max-width: 410px){
+    .card{
+        width: 77vw;
+    }
+}
+
+@media (max-width: 364px){
+    .card{
+        width: 70vw;
+    }
+}
+
 @media (max-width: 376px){
     .textbanner h2{
         font-size: 27px;
     }
-    .card{
+    /* .card{
         width: 335px;
-    }
+    } */
 }
 
 @media (max-width: 321px){
     .textbanner h2{
-        font-size: 22px;
+        font-size: 20px;
     }
     .card{
         width: 285px;
