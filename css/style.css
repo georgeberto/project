@@ -400,6 +400,15 @@ nav.sticky ul li a:hover
     color: #4f9894;
 }
 
+@media (max-height: 540px){
+    .container{
+        max-width: 900px;
+    }
+    .slidecontainer{
+        height: 250px;
+    }
+}
+
 @media (max-width: 768px){
     .footer-col{
         width: 50%;
